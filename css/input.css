@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+
+
+.name-group{
+  display: flex;
+} 
+
+.name { 
+  width: 150px;
+  margin-left: 20px;
+ }
+
+.rubi-name-group{
+  display: flex;   
+}
+
+.rubi-name { 
+  width: 150px;
+  margin-left: 20px;
+ }  
+
+ .form_group {
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 720px;
+}
+@media screen and (max-width: 480px) {
+  .form_group {
+    margin-top: 40px;
+  }
+}
+.form_item {
+  border-top: 1px solid #ddd;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 480px) {
+  .form_item {
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    flex-wrap: wrap;
+  }
+}
+.form_item:nth-child(5) {
+  border-bottom: 1px solid #ddd;
+}
+.form_item_label{
+  width: 100%;
+  max-width: 248px;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  font-size: 18px;
+}
+@media screen and (max-width: 480px) {
+  .form_item_label{
+    max-width: inherit;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+  }
+}
+ .form_item_label_must {
+  border-radius: 6px;
+  margin-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 48px;
+  display: inline-block;
+  text-align: center;
+  background:tomato;
+  color: #fff;
+  font-size: 14px;
+}
+@media screen and (max-width: 480px) {
+  .form_item_label_must {
+    border-radius: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 32px;
+    font-size: 10px;
+  }
+}
+/* 画面中央に持ってきたいが効かず */
+/* button {
+padding-left: 200px;
+} */
+
+input:required{
+  background: #ffcdd2;
+}
+input[type="email"]:invalid{
+  background: #ffcdd2;
+}
+input:valid{
+  background: transparent;
+}
+input:focus{
+  background: #DCEDC8;
+}

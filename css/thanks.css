@@ -1,0 +1,14 @@
+.background{
+  object-fit: cover;
+  width: 697px;
+  height: 418px;
+  margin-left: 140px;
+  padding-top: 100px;
+  justify-content:center;
+  align-items:center;
+}
+.buttons { 
+  justify-content:center;
+  align-items:center;
+  margin-left: 25px;
+}

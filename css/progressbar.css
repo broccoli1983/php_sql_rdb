@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* progressbar部分*/
+body {
+  margin: 0px;
+}
+.app {
+  width: 100%;
+  padding: 0px;
+  background-color: white;
+}
+.progress {
+  width: 100%;
+  height: 10px;
+  background-color: #F5F5F5;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+.progress-bar {
+  transition: width 0.5s linear;
+  height: 100%;
+  background-color: green;
+}
+/*共通部分*/
+html {
+  font-size: 100%;
+}
+
+a {
+  text-decoration: none;
+}
